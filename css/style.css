@@ -1,0 +1,515 @@
+/*--------------------------------
+        COMMON COMPONENT
+-----------------------------------*/
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.4s ease;
+    
+}
+
+.container{
+    overflow: hidden;
+    width:1260px;
+    margin: 0 auto;
+}
+
+.half-width{
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+
+p{
+    color: darkgray;
+}
+/*--------------------------------
+        LOGO STYLE
+-----------------------------------*/
+
+.logo{
+    flex: 1 1 auto;
+    text-transform: uppercase;
+    margin-left: 10%;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 35px;
+    float: ;
+}
+
+/*--------------------------------
+    NAV SECTION STYLE
+-----------------------------------*/
+.navbar{
+    position: fixed;
+    display: flex;
+   
+    background-color: #fbfbfb;
+    width:100%;
+    height:70px;
+    z-index: 1;
+}
+.nav{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right:15%;
+    margin-top: 25px;
+}
+
+
+ a{
+    margin: 15px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+ a:hover{
+    color: #333;
+}
+
+/*--------------------------------
+    HEADER SECTION STYLE
+-----------------------------------*/
+.header-bg{
+    background-image: url(../img/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-area{
+    overflow: hidden;
+  padding-top: 100px;
+   padding-bottom: 100px;
+   
+}
+.header-left{
+    float: left;
+    margin-top: 116px;
+    margin-left: 81px;
+    width: 50%;
+    
+}
+.header-left h1{
+    font-size: 48px;
+    font-weight:800;
+    line-height: 66px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: Audiowide;
+}
+.header-left p{
+    max-width: 390px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 42px;
+}
+.hire-btn{
+    color: #fff;
+    padding: 15px 52px;
+    background: #e45447;
+    overflow: hidden;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    border: 1px solid #e45447;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    text-align: center;
+    text-transform: capitalize;
+    transition: all .4s ease;
+}
+
+
+.hire-btn:hover{
+    background-color: white;
+    color:  #e45447;
+}
+
+.header-righter {
+    float: right;
+    
+}
+.header-righter img{
+    width:100%;
+    float: right;
+    margin-right: 100px;
+    margin-top: 50px;
+    transition: all 0.4s ease;
+}
+.header-righter img:hover{
+    transform: scale(1.1,1.1);
+}
+/*--------------------------------
+    MID SECTION STYLE
+-----------------------------------*/
+.mid-section-bg{
+    overflow: hidden;
+    background-image: url(../img/biography-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.mid-section{
+
+}
+.mid-section .mid-left{
+     float: left;
+ }
+
+.mid-section img{
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 85px;
+    transition: all 0.4s ease;
+ }
+.mid-section img:hover{
+    transform: scale(1.1,1.1);
+
+}
+.mid-section .mid-right{
+     float: right;
+     margin-right: 100px;
+    margin-top: 100px;
+   
+}
+.mid-right h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 70px;
+    text-transform: capitalize;
+    position: relative;
+    line-height: 44px;
+}
+ h2::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -35px;
+    width: 10px;
+    height: 10px;
+    background: #ffb428;;
+    border-radius: 7px;
+}
+ h2::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -31px;
+    width: 100px;
+    height: 2px;
+    background: #ffb428;;
+}
+.about-btn{
+    color: #333;
+    padding: 17px 52px;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    border: 1px solid #90acd1;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    text-align: center;
+    text-transform: capitalize;
+    transition: all .4s ease;
+}
+
+.about-btn:hover{
+    background: #90acd1;
+    color: #fff;
+}
+
+/*--------------------------------
+    MID SECTION STYLE
+-----------------------------------*/
+
+.work-section h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 70px;
+    text-transform: capitalize;
+    position: relative;
+    line-height: 44px;
+    margin-left: 40px;
+}
+.work-section p{
+    max-width: 535px;
+    margin-bottom: 0;
+    margin-left: 40px;
+}
+.work-section ul{
+
+}
+
+/*--------------------------------
+    ANIMI SECTION STYLE
+-----------------------------------*/
+.mixbtns ul{
+    padding: 0;
+    text-align: right; 
+    margin-right: 25px;  
+}
+.mixbtns ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+    cursor: pointer;
+    position: relative;
+    text-transform: capitalize;
+    font-size: 16px;
+    transition: all 0.4s ease;
+  
+}
+
+.active, ul li:hover {
+    color: #e45447;
+    transform: scale(1.1,1.1);
+}
+
+.mix{
+    height: 200px;
+    background-color: #222;
+    width: 31.5%;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.mixbtns{
+    margin: 50px 0;
+    text-align: center;
+}
+.w-des{
+    background-image: url(../img/images\ \(1\).jpg);
+}
+.w-dev{
+    background-image: url(../img/images\ \(2\).jpg);
+}
+.w-word{
+    background-image: url(../img/images\ \(3\).jpg);
+}
+.mymixcont{
+    text-align: center;
+    
+   
+}
+.animi-section{
+    width: 1140px;
+    height: 500px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+/*--------------------------------
+        CLIENT SECTION
+-----------------------------------*/
+.client-bg{
+    background-image: url(../img/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.clien-section{
+    display: inline-block;
+    padding: 50px;
+    text-align: center;
+}
+
+
+.clien-section h3{
+    font-size: 36px;
+   font-weight: 400;
+    position: relative;
+    text-align: center;
+   
+}
+.clien-section  p {
+    olor: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin: 34px 0;
+    font-family: roboto,sans-serif;
+    width:800px;
+}
+.coment-box{
+    overflow: hidden;
+    width: 500px;
+    height: 300px;
+    border: 1px solid #ddd;
+    float:left;
+    margin: 0 20px;
+}
+.coment-box p{
+    text-align: center;
+    width:450px;
+    padding: 50px 10px;
+    margin: 0 auto;
+}
+
+#clint-namn{
+    font-size: 20px;
+    font-weight: 400;
+   font-size: 40px;
+   margin-left: 100px;
+   margin-bottom: 0; 
+}
+
+/*--------------------------------
+        CONTACT SECTION
+-----------------------------------*/
+
+.contact-section{
+    padding-bottom: 30px;
+}
+.contact-box {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 95%;
+    height: 400px;
+    background: #e45447;
+    border-radius: 15px;
+    
+   
+} 
+
+.contact-box h2{
+    color: #fff;
+    position: relative;
+    margin-bottom: 45px;
+    font-size: 48px;
+    line-height: 45px;
+    text-align: center;
+   padding-top: 20px;
+}
+.contact-box h2::after{
+    ontent: '';
+    position: absolute;
+    left: 50%;
+    bottom: -19px;
+    transform: translateX(-50%);
+    background: #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 8px;
+}
+.contact-box h2::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 2px;
+    background: #fff;
+}
+* ::after, ::before {
+    box-sizing: border-box;
+}
+
+.contact-box p{
+    color: #fff;
+    text-align: center;
+    color: #fff;
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+    display:block;
+}
+.mini-box-area{
+    position: relative;
+    bottom: 20px;
+    width: 95%;
+    height: 35px;
+    left: 205px;
+    bottom: 205px;
+    
+   
+}
+.mini-box{
+    width:350px;
+    height:auto;
+    float:left;
+}
+.mini-box h4{
+    font-size: 21px;
+    font-weight: 700;
+    color: #fff;
+}
+
+/*--------------------------------
+        FOLLOW ME SECTION
+-----------------------------------*/
+.social_aria{
+    width:100%; 
+    clear: both;
+    margin: 0 auto;
+     text-align: center;
+    
+}
+.social_aria ul{
+    margin:0; 
+    padding:0; 
+    list-style: none;
+}
+.social_aria ul li{
+    display:inline-block; 
+    margin-right:5px;
+}
+.social_aria ul li a{
+    display: block;
+    background: #bb3434;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: -23px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
+.social_aria ul li a:hover{
+    background:#ee802f; 
+    transform: rotate(360deg); 
+    transition: 0.3s;
+}
+
+.follow-section h4{
+    text-align: center;
+    font-size: 21px;
+    color: #777;
+    font-weight: 700;
+    margin-top: 48px;
+}
+
+/*--------------------------------
+        FOOTER SECTION
+-----------------------------------*/
+
+
+.footer-bg{
+    background-image: url(../img/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+footer{
+    text-align: center;
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+}
