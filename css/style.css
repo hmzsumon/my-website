@@ -6,7 +6,7 @@ body{
     margin: 0 auto;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    transition: all 0.4s ease;
+    
     
 }
 
@@ -450,8 +450,12 @@ p{
     font-size: 21px;
     font-weight: 700;
     color: #fff;
+    cursor: pointer;
+    transition: all 0.4s ease;
 }
-
+.mini-box h4:hover{
+    transform: scale(1.1,1.1);
+}
 /*--------------------------------
         FOLLOW ME SECTION
 -----------------------------------*/
